@@ -1,2 +1,2 @@
-# -Simulador-de-Aut-matos-Finitos
+# -Simulador-de-Automatos-Finitos
 Este simulador foi criado para a realização de um trabalho para a dissciplina de Teoria da Computação ministrada pelo professor Wellington Della Mura
