@@ -1,7 +1,7 @@
-# -Simulador-de-Automatos-Finitos
-Este simulador foi criado para a realização de um trabalho para a dissciplina de Teoria da Computação ministrada pelo professor Wellington Della Mura
+# -Simulador-de-Autômatos-Finitos
+Este simulador foi criado para a realização de um trabalho para a disciplina de Teoria da Computação, ministrada pelo professor Wellington Della Mura.
 
-Foram feitos 3 exemplos para usar no automato,cada exemplo funciona no automato de mesmo número, logo, o exemplo 1 funciona no automato 1. todos os 3 exemplos tem 3 fases de evolução e 2 de resposta(aceito e recusado): q0, q1, q2, q3, qerro, se ao final da execução do codigo aparecer 1, o que foi digitado foi aceito pelo automato, se aparecer 0, foi recusado.
+Foram feitos três exemplos para usar nos autômatos, cada exemplo funciona no autômatos de mesmo número, logo, o exemplo 1 funciona no autômatos 1. Todos os 3 exemplos têm 3 fases de evolução: q0, q1, q2; E 2 fases de resposta (aceito e recusado): q3, qerro. Se ao final da execução do codigo aparecer 1, o que foi digitado foi aceito pelo autômatos, se aparecer 0, foi recusado.
 
 
 
