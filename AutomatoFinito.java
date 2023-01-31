@@ -28,7 +28,7 @@ public class AutomatoFinito {
                 q1();
             }             
             else if(cadeia[cont] == 'c'){
-                qf();
+                q3();
             }
             else{
                 qerro();
@@ -72,7 +72,7 @@ public class AutomatoFinito {
         }
     }
 
-    public void qf(){
+    public void q3(){
         System.err.println("1");
     }
      

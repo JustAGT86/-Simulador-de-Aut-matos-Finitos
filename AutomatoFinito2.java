@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class AutomatoFinito2 {
+public class AutomatoFinito3 {
     int cont;
     
     char cadeia[];
     public static void main(String[] args) {
-        AutomatoFinito2 AUTOMATO= new AutomatoFinito2();
+        AutomatoFinito3 AUTOMATO= new AutomatoFinito3();
         String palavra;
         try (Scanner input = new Scanner(System.in)) {
             System.out.println("Digite a palavra: ");
@@ -27,9 +27,7 @@ public class AutomatoFinito2 {
                 cont++;
                 q1();
             }             
-            else if(cadeia[cont] == 'f'){
-                qf();
-            }
+            
             else{
                 qerro();
             }
@@ -45,7 +43,8 @@ public class AutomatoFinito2 {
             if(cadeia[cont]=='e'){
                 cont++;
                 q2();
-            }                                  
+            }
+                                              
             else{
                 qerro();
             }
@@ -58,9 +57,9 @@ public class AutomatoFinito2 {
 
     public void q2(){
         if(cont<cadeia.length){
-            if(cadeia[cont]=='e'){
+            if(cadeia[cont]=='f'){
                 cont++;
-                q0();
+                q3();
             }            
             else{
                 qerro();
@@ -72,7 +71,7 @@ public class AutomatoFinito2 {
         }
     }
 
-    public void qf(){
+    public void q3(){
         System.err.println("1");
     }
      

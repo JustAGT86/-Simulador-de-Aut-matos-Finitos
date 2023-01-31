@@ -27,9 +27,7 @@ public class AutomatoFinito3 {
                 cont++;
                 q1();
             }             
-            else if(cadeia[cont] == 'i'){
-                qf();
-            }
+            
             else{
                 qerro();
             }
@@ -45,7 +43,12 @@ public class AutomatoFinito3 {
             if(cadeia[cont]=='h'){
                 cont++;
                 q2();
-            }                                  
+            }  
+            
+            else if(cadeia[cont] == 'i'){
+                qf();
+            }
+            
             else{
                 qerro();
             }
@@ -58,9 +61,9 @@ public class AutomatoFinito3 {
 
     public void q2(){
         if(cont<cadeia.length){
-            if(cadeia[cont]=='h'){
+            if(cadeia[cont]=='i'){
                 cont++;
-                q0();
+                q1();
             }            
             else{
                 qerro();
